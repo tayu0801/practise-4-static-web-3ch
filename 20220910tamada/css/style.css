@@ -206,6 +206,7 @@
 }
 .blog-content__block {
   width: 70vw;
+  margin: 40px;
 }
 .blog-content__text-en {
   margin-bottom: 20px;
@@ -230,15 +231,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 30vh;
   width: 20vw;
   border-radius: 30px 30px 30px 30px;
+  margin-bottom: 40px;
   background: white;
 }
 .blog-content__image-area {
   position: relative;
-  height: 50%;
-  width: 20vw;
 }
 .blog-content__cate {
   position: absolute;
@@ -251,11 +250,8 @@
   color: white;
 }
 .blog-content__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
   border-radius: 30px 30px 0 0;
+  height: 25vh;
   width: 20vw;
 }
 .blog-content__text-area2 {
